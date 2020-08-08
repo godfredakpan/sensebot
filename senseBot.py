@@ -15,7 +15,7 @@ def setup_Bot():
     return api
 
 def godfred():
-    name = "Godfred is a good boy"
+    description = "Creator of SenseBot"
     print(name)
 
 def get_Quote():
