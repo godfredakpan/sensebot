@@ -16,7 +16,6 @@ def setup_Bot():
     api = tweepy.API(auth)
     return api
 
-setup_Bot()
 
 def godfred():
     name = "Godfred is a good boy"
