@@ -1,9 +1,9 @@
 
-consumerKey = "YOUR_API_KEY"
+consumerKey = environ['consumerKey']
 
-consumerSecret = "YOUR_API_KEY_SECRET"
+consumerSecret =environ['consumerSecret']
 
-accessToken = "YOUR_ACCESS_TOKEN"
+accessToken = environ['accessToken']
 
-accessTokenSecret = "YOUR_ACCESS_TOKEN_SECRET"
+accessTokenSecret = environ['accessTokenSecret']
 

@@ -4,8 +4,6 @@ import time
 import json
 import credentials
 
-
-
 def setup_Bot():
     consumerKey = credentials.consumerKey
     consumerSecret = credentials.consumerSecret
@@ -15,7 +13,6 @@ def setup_Bot():
     auth.set_access_token(accessToken, accessTokenSecret)
     api = tweepy.API(auth)
     return api
-
 
 def godfred():
     name = "Godfred is a good boy"

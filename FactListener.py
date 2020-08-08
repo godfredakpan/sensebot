@@ -2,12 +2,12 @@ import requests
 import tweepy
 import time
 import json
+import credentials
 
-
-consumerKey = "YOUR_CONSUMER_KEY"
-consumerSecret = "YOUR_CONSUMER_SECRET_KEY"
-accessToken = "YOUR_ACCESS_TOKEN"
-accessTokenSecret = "YOUR_ACCESS_TOKEN_SECRET"
+consumerKey = credentials.consumerKey
+consumerSecret = credentials.consumerSecret
+accessToken = credentials.accessToken
+accessTokenSecret = credentials.accessTokenSecret
 
 class TwitterStreamListener(tweepy.streaming.StreamListener):
     ''' Handles data received from the stream. '''
