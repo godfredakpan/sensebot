@@ -38,7 +38,7 @@ while True:
         print('\nUpdating : ',status)
         api.update_status(status=status)
         print("\nGoing to Sleep for 1  hour")
-        time.sleep(60)
+        time.sleep(3600)
     except Exception as ex:
         print(ex)
         break
