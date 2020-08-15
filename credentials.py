@@ -1,3 +1,6 @@
+import os
+from os import environ
+
 
 consumerKey =  environ['consumerKey']
 
