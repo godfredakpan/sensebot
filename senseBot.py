@@ -16,7 +16,7 @@ def setup_Bot():
 
 def godfred():
     description = "Creator of SenseBot"
-    print(name)
+    print(description)
 
 def get_Quote():
     params = {
@@ -33,11 +33,11 @@ api = setup_Bot()
 while True:
     try:
         quote,author = get_Quote()
-        status = quote+" -"+author+"\n"+"#BBNaija♡ \
-        #senseBot #dailyQuotes #Vote4LAycon #programming @godfredakpan"
+        status = quote+" -"+author+"\n"+"#BBNaija \
+        #senseBot #dailyQuotes #Vote4LAycon #programming built with ♡ @godfredakpan"
         print('\nUpdating : ',status)
         api.update_status(status=status)
-        print("\nGoing to Sleep for 1 min")
+        print("\nGoing to Sleep for 1  hour")
         time.sleep(60)
     except Exception as ex:
         print(ex)

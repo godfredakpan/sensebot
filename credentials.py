@@ -1,7 +1,7 @@
 
-consumerKey = environ['consumerKey']
+consumerKey =  environ['consumerKey']
 
-consumerSecret =environ['consumerSecret']
+consumerSecret = environ['consumerSecret']
 
 accessToken = environ['accessToken']
 
