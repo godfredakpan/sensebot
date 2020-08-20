@@ -33,7 +33,8 @@ api = setup_Bot()
 while True:
     try:
         quote,author = get_Quote()
-        status = quote+" -"+author+"\n"
+        status = quote+" -"+author+"\n"+"\
+        #inspiration #motivation"
         print('\nUpdating : ',status)
         api.update_status(status=status)
         print("\nGoing to Sleep for 1  hour")
