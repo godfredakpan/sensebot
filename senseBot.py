@@ -33,8 +33,7 @@ api = setup_Bot()
 while True:
     try:
         quote,author = get_Quote()
-        status = quote+" -"+author+"\n"+"#BBNaija \
-        #senseBot #dailyQuotes #Vote4LAycon #programming built with ♡ @godfredakpan"
+        status = quote+" -"+author+"\n"
         print('\nUpdating : ',status)
         api.update_status(status=status)
         print("\nGoing to Sleep for 1  hour")
