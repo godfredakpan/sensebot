@@ -1,1 +1,1 @@
-Tweeter bot to help you get sense
+Twitter bot to help you get sense
